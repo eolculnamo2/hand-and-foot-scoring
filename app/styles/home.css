@@ -1,53 +1,41 @@
 .body {
-    background-color: #fd0303;
+  background-color: var(--primary-color);
+  line-height: 1.6;
 }
 
 h1 {
-    color: white;
-    text-align:center;
+  color: white;
+  text-align: center;
 }
 
-/* li {
-    display: inline;
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-li,
-a:hover {
-    color: black;
-} */
-
-  
 .deck {
-    max-width: 20rem;
-  }
-  
-  #diamonds {
-    transform: rotate(20deg);
-    margin-right: 20%;
-    margin-top: 10%;
-    float:right
-  }
-  
-  #spades {
-    transform: rotate(-20deg);
-    margin-left: 20%;
-    float: left;
-    margin-top: -50%;
-  }
-  
-  .hand {
-    max-width: 10rem;
-  }
+  max-width: 20rem;
+}
 
-  #topHand {
-      margin-left: 40%;
-      margin-top: 30%;
-  }
+#diamonds {
+  transform: rotate(20deg);
+  margin-right: 20%;
+  margin-top: 10%;
+  float: right;
+}
 
-  #bottomHand {
-      margin-left: 60%;
-      margin-bottom: 40%;
-  }
+#spades {
+  transform: rotate(-20deg);
+  margin-left: 20%;
+  float: left;
+  margin-top: -50%;
+}
+
+.hand {
+  max-width: 10rem;
+}
+
+#topHand {
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
+#bottomHand {
+  margin-left: 60%;
+  margin-bottom: 40%;
+}

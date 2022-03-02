@@ -1,21 +1,40 @@
 .body {
-  background-color: #fd0303;
+  background-color: red;
+  line-height: 1.6;
   font-family: "Varela Round", sans-serif;
 }
 
-.navbar {
-  overflow: hidden;
+nav {
   background-color: white;
+  height:fit-content;
 }
 
-.navbar a {
-  float: left;
-  font-size: 2rem;
+nav ul a.btn {
+  margin-right: 75px;
+}
+
+nav ul a {
+  margin-right: 50px;
+}
+
+
+.nav-wrapper {
+  font-family: "Varela Round", sans-serif;
+}
+
+.nav-wrapper a {
+  font-size: 1rem;
   color: black;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  margin-top: 70%;
+  padding: 0px 10px;
+}
+
+#navImage {
+  max-width: 50% !important;
+}
+
+.brand-logo {
+  max-width: 37% !important;
 }
 
 .dropdown {
@@ -28,13 +47,13 @@
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   background-color: inherit;
   font-family: inherit;
   margin-top: 70%;
 }
 
-.navbar a:hover,
+.nav-wrapper a:hover,
 .dropdown:hover .dropbtn {
   background-color: red;
 }
@@ -65,40 +84,39 @@
   display: block;
 }
 
-.home {
-  max-width: 35%;
-}
-
-#navImage {
-    float: right;
-}
-
 h1 {
-    color: white;
-    text-align: center;
-    font-size: 6rem;
-    margin-top: -5%;
-    margin-left: 50%;
-  }
-  
+  color: white;
+  text-align: center;
+}
+
 .deck {
-  max-width: 20%;
+  max-width: 20rem !important;
 }
 
 #diamonds {
   transform: rotate(20deg);
+  margin-right: 20%;
   margin-top: -3%;
-  margin-left: 30%;
+  float: right;
 }
 
 #spades {
   transform: rotate(-20deg);
-  margin-left: 17%;
-  margin-top: -22%;
-  padding-bottom: 20rem;
+  margin-left: 20%;
+  float: left;
+  margin-top: -50%;
 }
 
-#logo {
+.hand {
+  max-width: 10rem;
+}
+
+#topHand {
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
+#bottomHand {
   margin-left: 60%;
-  max-width: 30%;
+  margin-bottom: 40%;
 }

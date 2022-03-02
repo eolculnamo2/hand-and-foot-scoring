@@ -6,7 +6,7 @@
 
 nav {
   background-color: white;
-  height:fit-content;
+  height: fit-content;
 }
 
 nav ul a.btn {
@@ -16,7 +16,6 @@ nav ul a.btn {
 nav ul a {
   margin-right: 50px;
 }
-
 
 .nav-wrapper {
   font-family: "Varela Round", sans-serif;
@@ -86,37 +85,23 @@ nav ul a {
 
 h1 {
   color: white;
-  text-align: center;
+  margin-top: 12%;
 }
 
 .deck {
-  max-width: 20rem !important;
+  max-width: 22rem !important;
 }
 
 #diamonds {
   transform: rotate(20deg);
-  margin-right: 20%;
-  margin-top: -3%;
-  float: right;
+  margin-top: -7%;
 }
 
 #spades {
   transform: rotate(-20deg);
-  margin-left: 20%;
-  float: left;
-  margin-top: -50%;
 }
 
 .hand {
-  max-width: 10rem;
-}
-
-#topHand {
-  margin-left: 40%;
-  margin-top: 30%;
-}
-
-#bottomHand {
-  margin-left: 60%;
-  margin-bottom: 40%;
+  margin-top: -5%;
+  max-width: 56%;
 }

@@ -10,31 +10,31 @@ export function links() {
 }
 export default function Index() {
   return (
-    <div className="body" style={{ fontFamily: "Varela Round, sans-serif", lineHeight: "1.6" }}>
-     
-{/*       
-      <li>
-        <a target="_blank" href="https://remix.run/tutorials/blog" rel="noreferrer">
-          Log In
+    <div className="body">
+      <div className="navbar">
+        <a href="#home">
+          <img src="/img/hand-and-foot.png" className="home" id="home" alt="hand and foot line drawing"></img>
         </a>
-      </li>
-      <li>
-        <a target="_blank" href="https://remix.run/tutorials/jokes" rel="noreferrer">
-          Register
-        </a>
-      </li>
-      <li>
-        <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-          Overview
-        </a>
-      </li> */}
+        <img src="/img/heart.png" className="deck" id="navImage" alt="ace of hearts"></img>
+        <img src="/img/club.png" className="deck" id="navImage" alt="ace of clubs"></img>
+        <a href="#news">Overview</a>
+        <div className="dropdown">
+          <button className="dropbtn">
+            Log In
+            <i className="fa fa-caret-down"></i>
+          </button>
+          <div className="dropdown-content">
+            <a href="#">User Name</a>
+            <a href="#">Password</a>
+            <a href="#">Create Account</a>
+          </div>
+        </div>
+      </div>
 
-
-      <img src="/img/diamond.png" className="deck" id="diamonds"></img>
-      <img src="/img/hand-and-foot.png" className="hand" id="topHand"></img>
+      <img src="/img/diamond.png" className="deck" id="diamonds" alt="ace of diamonds"></img>
       <h1>HAND AND FOOT</h1>
-      <img src="/img/hand-and-foot.png" className="hand" id="bottomHand"></img>
-      <img src="/img/spades.png" className="deck" id="spades"></img>
+      <img src="/img/hand-and-foot.png" className="hand" id="logo" alt="hand and foot line drawing"></img>
+      <img src="/img/spades.png" className="deck" id="spades" alt="ace of spades"></img>
     </div>
   );
 }

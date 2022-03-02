@@ -1,53 +1,104 @@
 .body {
-    background-color: #fd0303;
+  background-color: #fd0303;
+  font-family: "Varela Round", sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 70%;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 70%;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.home {
+  max-width: 35%;
+}
+
+#navImage {
+    float: right;
 }
 
 h1 {
     color: white;
-    text-align:center;
-}
-
-/* li {
-    display: inline;
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-li,
-a:hover {
-    color: black;
-} */
-
+    text-align: center;
+    font-size: 6rem;
+    margin-top: -5%;
+    margin-left: 50%;
+  }
   
 .deck {
-    max-width: 20rem;
-  }
-  
-  #diamonds {
-    transform: rotate(20deg);
-    margin-right: 20%;
-    margin-top: 10%;
-    float:right
-  }
-  
-  #spades {
-    transform: rotate(-20deg);
-    margin-left: 20%;
-    float: left;
-    margin-top: -50%;
-  }
-  
-  .hand {
-    max-width: 10rem;
-  }
+  max-width: 20%;
+}
 
-  #topHand {
-      margin-left: 40%;
-      margin-top: 30%;
-  }
+#diamonds {
+  transform: rotate(20deg);
+  margin-top: -3%;
+  margin-left: 30%;
+}
 
-  #bottomHand {
-      margin-left: 60%;
-      margin-bottom: 40%;
-  }
+#spades {
+  transform: rotate(-20deg);
+  margin-left: 17%;
+  margin-top: -22%;
+  padding-bottom: 20rem;
+}
+
+#logo {
+  margin-left: 60%;
+  max-width: 30%;
+}

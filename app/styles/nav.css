@@ -1,0 +1,87 @@
+
+nav {
+    background-color: white;
+    height: fit-content;
+  }
+  
+  nav ul a.btn {
+    margin-right: 75px;
+  }
+  
+  nav ul a {
+    margin-right: 50px;
+  }
+  
+  .nav-wrapper {
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  .nav-wrapper a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+  }
+  
+  #navImage {
+    max-width: 50% !important;
+  }
+  
+  .brand-logo {
+    max-width: 37% !important;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin-top: 70%;
+  }
+  
+  .nav-wrapper a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .modal{
+    background-color: red;
+   }
+   
+   .collapsible-body {
+       background-color: white;
+   }

@@ -1,0 +1,29 @@
+.body {
+  background-color: red;
+  line-height: 1.6;
+  font-family: "Varela Round", sans-serif;
+}
+
+
+h1 {
+  color: white;
+  margin-top: 12%;
+}
+
+.deck {
+  max-width: 22rem !important;
+}
+
+#diamonds {
+  transform: rotate(20deg);
+  margin-top: -7%;
+}
+
+#spades {
+  transform: rotate(-20deg);
+}
+
+.hand {
+  margin-top: -5%;
+  max-width: 56%;
+}

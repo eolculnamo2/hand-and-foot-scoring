@@ -1,8 +1,3 @@
-import navCss from "~/styles/nav.css";
-import { buildLinks } from "~/utils/pages";
-
-export const links = buildLinks([{ rel: "stylesheet", href: navCss }]);
-
 const Nav = () => {
   return (
     <>
@@ -10,22 +5,43 @@ const Nav = () => {
         <div className="nav-wrapper row">
           <div className="col s5 pull-s7">
             <a href="#home">
-              <img src="/img/hand-and-foot.png" className="brand-logo" id="home" alt="hand and foot line drawing"></img>
+              <img
+                src="/img/hand-and-foot.png"
+                className="brand-logo"
+                id="home"
+                alt="hand and foot line drawing"
+              ></img>
             </a>
           </div>
           <div className="col s7 push-s5">
-            <img src="/img/heart.png" className="responsive-img deck" id="navImage" alt="ace of hearts"></img>
-            <img src="/img/club.png" className="responsive-img deck" id="navImage" alt="ace of clubs"></img>
+            <img
+              src="/img/heart.png"
+              className="responsive-img deck"
+              id="navImage"
+              alt="ace of hearts"
+            ></img>
+            <img
+              src="/img/club.png"
+              className="responsive-img deck"
+              id="navImage"
+              alt="ace of clubs"
+            ></img>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               {/* Modal triggers */}
               <li>
                 {" "}
-                <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal2">
+                <a
+                  className="waves-effect waves-light white btn modal-trigger black-text"
+                  href="#modal2"
+                >
                   Log In
                 </a>
               </li>
               <li>
-                <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal1">
+                <a
+                  className="waves-effect waves-light white btn modal-trigger black-text"
+                  href="#modal1"
+                >
                   Overview
                 </a>
               </li>
@@ -54,7 +70,10 @@ const Nav = () => {
             </form>
           </div>
           <div className="modal-footer">
-            <a href="#!" className="modal-close waves-effect waves-green btn-flat">
+            <a
+              href="#!"
+              className="modal-close waves-effect waves-green btn-flat"
+            >
               Create Account
             </a>
           </div>
@@ -69,10 +88,12 @@ const Nav = () => {
               <div className="collapsible-body">
                 <span>
                   <p>
-                    • 1 more deck of cards than the number of players.Example: If 4 players, use 5 decks.
+                    • 1 more deck of cards than the number of players.Example:
+                    If 4 players, use 5 decks.
                     <br />• Jokers are included.
                     <br />• Deal 13 cards to each player - this is the hand.
-                    <br />• Deal another 13 cards to each player - this is the foot and is not looked at until the hand has been played.
+                    <br />• Deal another 13 cards to each player - this is the
+                    foot and is not looked at until the hand has been played.
                   </p>
                 </span>
               </div>
@@ -86,9 +107,11 @@ const Nav = () => {
                     <br />
                     • Can put down as few as 3 cards to start a meld.
                     <br />
-                    • Clean meld-all natural. Place a red card on top when complete.
+                    • Clean meld-all natural. Place a red card on top when
+                    complete.
                     <br />
-                    • Dirty meld-contains wilds --no more than 2, see WILDS for more info. Place a black card on top when complete.
+                    • Dirty meld-contains wilds --no more than 2, see WILDS for
+                    more info. Place a black card on top when complete.
                     <br />• Wild meld-all wild (Jokers and 2s)
                   </p>
                 </span>
@@ -114,14 +137,19 @@ const Nav = () => {
                 <span>
                   <h5>Red 3s:</h5>
                   <p>
-                    If a Red 3 is dealt to you or you draw one on your turn, immediately:
+                    If a Red 3 is dealt to you or you draw one on your turn,
+                    immediately:
                     <br />
-                    • Lay face up in front of you to collect points at the end of the game.
+                    • Lay face up in front of you to collect points at the end
+                    of the game.
                     <br />• Draw a replacement card from the draw deck.
                   </p>
 
                   <h5>Black 3s:</h5>
-                  <p>When discarded, prevents the next player from picking up from the discard pile.</p>
+                  <p>
+                    When discarded, prevents the next player from picking up
+                    from the discard pile.
+                  </p>
                 </span>
               </div>
             </li>
@@ -140,11 +168,15 @@ const Nav = () => {
                   <h5>Drawing from discard:</h5>
                   <p>
                     • If less than seven cards available, take all.
-                    <br />• Must play the top card immediately with two natural cards from your hand.
+                    <br />• Must play the top card immediately with two natural
+                    cards from your hand.
                   </p>
 
                   <h5>Getting into your foot:</h5>
-                  <p>You must play all of the cards in your hand before you can get into your foot.</p>
+                  <p>
+                    You must play all of the cards in your hand before you can
+                    get into your foot.
+                  </p>
                 </span>
               </div>
             </li>
@@ -153,7 +185,8 @@ const Nav = () => {
               <div className="collapsible-body">
                 <span>
                   <p>
-                    The game ends when all the cards from the draw pile are gone or a player goes out.
+                    The game ends when all the cards from the draw pile are gone
+                    or a player goes out.
                     <br />
                     To go out, a player must have:
                     <br />
@@ -171,7 +204,8 @@ const Nav = () => {
               <div className="collapsible-header">SCORING</div>
               <div className="collapsible-body">
                 <span>
-                  All cards left in your hand or foot at the end of the game are deducted from final score.
+                  All cards left in your hand or foot at the end of the game are
+                  deducted from final score.
                   <table className="responsive-table striped">
                     <thead>
                       <tr>

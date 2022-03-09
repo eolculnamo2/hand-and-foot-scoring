@@ -9,62 +9,26 @@ const Nav = () => {
     <>
       <nav className="container">
         <div className="nav-wrapper row">
-            <div className="col s6 l6" id="one">
-                <a href="#home">
-                    <img src="/img/hand-and-foot.png" className="brand-logo" id="home" alt="hand and foot line drawing"></img>
-                </a>
-            </div>
-            <div className="col s3 l3" id="two">
-                <ul>
-                    <li>
-                        <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal1">
-                            Log In
-                        </a>
-                        <img src="/img/club.png" className="responsive-img deck" id="navImage" alt="ace of hearts"></img>
-                    </li>
-                </ul>
-            </div>
-            <div className="col s3 l3" id="three">
-                <ul>
-                    <li>
-                        <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal2">
-                            Overview
-                        </a>
-                        <img src="/img/heart.png" className="responsive-img deck" id="navImage" alt="ace of clubs"></img>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-      {/* Log In Modal Content */}
-      <div id="modal2" className="modal">
-        <div className="modal-content">
-          <h4>Log In or Create An Account</h4>
-          <div className="row">
-            <form className="col s12">
-              <div className="row">
-                <div className="row">
-                  <div className="input-field col s12">
-                    {/* <input id="username" type="username" className="validate"> */}
-                    {/* <label for="username">User Name</label> */}
-                  </div>
-                </div>
-                <div className="input-field col s12">
-                  {/* <input id="password" type="password" className="validate"> */}
-                  {/* <label for="password">Password</label> */}
-                </div>
-              </div>
-            </form>
-          </div>
-          <div className="modal-footer">
-            <a href="#!" className="modal-close waves-effect waves-green btn-flat">
-              Create Account
+          <div className="col s12 l6">
+            <a href="#home">
+              <img src="/img/hand-and-foot.png" className="brand-logo" id="home" alt="hand and foot line drawing"></img>
             </a>
           </div>
+
+          <div className="col s12 l6">
+            <ul>
+              <li>
+                <a className="waves-effect waves-light white btn modal-trigger black-text right" href="#modal">
+                  Overview
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
+     
       {/* Overview Modal Content */}
-      <div id="modal1" className="modal">
+      <div id="modal" className="modal">
         <div className="modal-content">
           <ul className="collapsible">
             <li>

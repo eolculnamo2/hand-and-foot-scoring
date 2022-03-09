@@ -8,28 +8,6 @@ body {
   font-family: var(--primary-font);
 }
 
-/* .main-nav {
-  background-color: var(--primary-color);
-  padding: 1rem;
-  border-bottom: 1px solid black;
-} */
-/* 
-.main-nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 14px;
-} */
-/* 
-.nav-link a {
-  color: white;
-  display: inline;
-  margin: 10px;
-  text-decoration: none;
-} */
 
 .nav-link a:hover {
   text-decoration: underline;
@@ -37,7 +15,6 @@ body {
 
 nav .nav-wrapper {
   background-color: white;
-  height: 315% !important;
 }
 
 

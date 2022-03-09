@@ -1,3 +1,4 @@
+import BasePageLayout from "~/layouts/BasePageLayout";
 import navCss from "~/styles/nav.css";
 import { buildLinks } from "~/utils/pages";
 
@@ -8,31 +9,33 @@ const Nav = () => {
     <>
       <nav className="container">
         <div className="nav-wrapper row">
-          <div className="col s5 pull-s7">
-            <a href="#home">
-              <img src="/img/hand-and-foot.png" className="brand-logo" id="home" alt="hand and foot line drawing"></img>
-            </a>
-          </div>
-          <div className="col s7 push-s5">
-            <img src="/img/heart.png" className="responsive-img deck" id="navImage" alt="ace of hearts"></img>
-            <img src="/img/club.png" className="responsive-img deck" id="navImage" alt="ace of clubs"></img>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              {/* Modal triggers */}
-              <li>
-                {" "}
-                <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal2">
-                  Log In
+            <div className="col s6 l6" id="one">
+                <a href="#home">
+                    <img src="/img/hand-and-foot.png" className="brand-logo" id="home" alt="hand and foot line drawing"></img>
                 </a>
-              </li>
-              <li>
-                <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal1">
-                  Overview
-                </a>
-              </li>
-            </ul>
-          </div>
+            </div>
+            <div className="col s3 l3" id="two">
+                <ul>
+                    <li>
+                        <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal1">
+                            Log In
+                        </a>
+                        <img src="/img/club.png" className="responsive-img deck" id="navImage" alt="ace of hearts"></img>
+                    </li>
+                </ul>
+            </div>
+            <div className="col s3 l3" id="three">
+                <ul>
+                    <li>
+                        <a className="waves-effect waves-light white btn modal-trigger black-text" href="#modal2">
+                            Overview
+                        </a>
+                        <img src="/img/heart.png" className="responsive-img deck" id="navImage" alt="ace of clubs"></img>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
       {/* Log In Modal Content */}
       <div id="modal2" className="modal">
         <div className="modal-content">

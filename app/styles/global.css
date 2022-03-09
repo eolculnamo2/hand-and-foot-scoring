@@ -8,12 +8,12 @@ body {
   font-family: var(--primary-font);
 }
 
-.main-nav {
+/* .main-nav {
   background-color: var(--primary-color);
   padding: 1rem;
   border-bottom: 1px solid black;
-}
-
+} */
+/* 
 .main-nav ul {
   list-style-type: none;
   display: flex;
@@ -22,15 +22,38 @@ body {
   margin: 0;
   text-transform: uppercase;
   font-size: 14px;
-}
-
+} */
+/* 
 .nav-link a {
   color: white;
   display: inline;
   margin: 10px;
   text-decoration: none;
-}
+} */
 
 .nav-link a:hover {
   text-decoration: underline;
+}
+
+nav .nav-wrapper {
+  background-color: white;
+  height: 315% !important;
+}
+
+
+.col {
+  color: black;
+}
+
+.brand-logo {
+  width: 18%;
+}
+
+
+#modal1 {
+background-color: red;
+}
+
+.collapsible-body {
+background-color: white;
 }

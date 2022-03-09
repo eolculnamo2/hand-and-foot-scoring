@@ -25,7 +25,6 @@ const Index = () => {
           </div>
           <div className="col s12 m12 l6 left-align" id="five">
             <h3>Sign In</h3>
-            
             <div className="input-field ">
               <i className="material-icons prefix">account_circle</i>
               <input name="email" placeholder="Username" id="icon_prefix" type="text" className="validate"></input>
@@ -35,8 +34,7 @@ const Index = () => {
               <input name="password" placeholder="Password" id="icon_prefix" type="text" className="validate"></input>
             </div>
             <button className="submit">Submit </button> or
-              <button className="submit">Create an Account</button>
-           
+            <button className="submit">Create an Account</button>
           </div>
         </div>
       </div>

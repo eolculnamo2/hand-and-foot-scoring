@@ -4,7 +4,6 @@
   font-family: "Varela Round", sans-serif;
 }
 
-
 h1 {
   color: white;
   margin-top: 12%;
@@ -24,6 +23,24 @@ h1 {
 }
 
 .hand {
-  margin-top: -5%;
-  max-width: 56%;
+  max-width: 92%;
+  margin-top: 25%;
+}
+
+.col.s12.m12.l6.left-align {
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+input {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
 }

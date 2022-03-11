@@ -3,7 +3,7 @@ const Nav = () => {
     <>
       <nav className="container">
         <div className="nav-wrapper row">
-          <div className="col s5 pull-s7">
+          <div className="col s12 l6">
             <a href="#home">
               <img
                 src="/img/hand-and-foot.png"
@@ -13,34 +13,13 @@ const Nav = () => {
               ></img>
             </a>
           </div>
-          <div className="col s7 push-s5">
-            <img
-              src="/img/heart.png"
-              className="responsive-img deck"
-              id="navImage"
-              alt="ace of hearts"
-            ></img>
-            <img
-              src="/img/club.png"
-              className="responsive-img deck"
-              id="navImage"
-              alt="ace of clubs"
-            ></img>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              {/* Modal triggers */}
-              <li>
-                {" "}
-                <a
-                  className="waves-effect waves-light white btn modal-trigger black-text"
-                  href="#modal2"
-                >
-                  Log In
-                </a>
-              </li>
+
+          <div className="col s12 l6">
+            <ul>
               <li>
                 <a
-                  className="waves-effect waves-light white btn modal-trigger black-text"
-                  href="#modal1"
+                  className="waves-effect waves-light white btn modal-trigger black-text right"
+                  href="#modal"
                 >
                   Overview
                 </a>
@@ -49,38 +28,9 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-      {/* Log In Modal Content */}
-      <div id="modal2" className="modal">
-        <div className="modal-content">
-          <h4>Log In or Create An Account</h4>
-          <div className="row">
-            <form className="col s12">
-              <div className="row">
-                <div className="row">
-                  <div className="input-field col s12">
-                    {/* <input id="username" type="username" className="validate"> */}
-                    {/* <label for="username">User Name</label> */}
-                  </div>
-                </div>
-                <div className="input-field col s12">
-                  {/* <input id="password" type="password" className="validate"> */}
-                  {/* <label for="password">Password</label> */}
-                </div>
-              </div>
-            </form>
-          </div>
-          <div className="modal-footer">
-            <a
-              href="#!"
-              className="modal-close waves-effect waves-green btn-flat"
-            >
-              Create Account
-            </a>
-          </div>
-        </div>
-      </div>
+
       {/* Overview Modal Content */}
-      <div id="modal1" className="modal">
+      <div id="modal" className="modal">
         <div className="modal-content">
           <ul className="collapsible">
             <li>

@@ -33,8 +33,15 @@ const Index = () => {
               <i className="material-icons prefix">security</i>
               <input name="password" placeholder="Password" id="icon_prefix" type="text" className="validate"></input>
             </div>
-            <button className="submit">Submit </button> or
-            <button className="submit">Create an Account</button>
+            <a className="waves-effect waves-light white btn black-text" href="#">
+                  Submit
+                </a> or
+                <a className="waves-effect waves-light white btn black-text" href="#">
+                  Create Account
+                </a>
+
+            
+
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "remix";
 import { match } from "ts-pattern";
 import PasswordRecovery from "~/components/pages/index/PasswordRecovery";
 import BasePageLayout from "~/layouts/BasePageLayout";
@@ -65,7 +66,7 @@ const Index = () => {
               <input name="password" placeholder="Password" id="icon_prefix" type="text" className="validate"></input>
             </div>
             <button className="submit">Submit </button> or
-            <button className="submit">Create an Account</button>
+            <Link to="/create-account" prefetch="intent"><button className="submit">Create an Account</button></Link>
           </div>
         </div>
       </div>

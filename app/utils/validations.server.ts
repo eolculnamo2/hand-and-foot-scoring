@@ -28,3 +28,10 @@ export const throwByStatus = (status: Status, customMessage?: string) => {
       throw json("Unexpected error thrown");
     });
 };
+
+export const assertEmail = (email: string): boolean => {
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+};
+
+export const minLength = (text: string, length: number) =>
+  text.length >= length;

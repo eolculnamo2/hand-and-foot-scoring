@@ -73,9 +73,6 @@ export const action: ActionFunction = async ({ request }) => {
 const CreateAccount = () => (
   <BasePageLayout>
     <div className="center-align phils-house">
-      <div className="col s6">
-        <img src="/img/hand-and-foot.png" className="hand"></img>
-      </div>
       <div className="col s6 phils-form">
         <Form method="post">
           <div className="input-field ">
@@ -117,6 +114,9 @@ const CreateAccount = () => (
           </div>
           <button className="submit">Create Account</button>
         </Form>
+      </div>
+      <div className="col s6 l4">
+        <img src="/img/hand-and-foot.png" className="logo"></img>
       </div>
     </div>
   </BasePageLayout>

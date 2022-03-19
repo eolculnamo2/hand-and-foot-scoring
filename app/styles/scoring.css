@@ -1,0 +1,35 @@
+body {
+  background-color: #fd0303;
+  font-family: "Varela Round", sans-serif;
+}
+
+.nav-wrapper {
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav-wrapper a {
+  color: black;
+}
+
+.brand-logo {
+  width: 6%;
+  margin-left: 25px;
+}
+
+.deck {
+  max-width: 20%;
+}
+
+#modal {
+  background-color: red;
+}
+
+.collapsible-body {
+  background-color: white;
+}
+
+.button {
+  background-color: red !important;
+  color: white !important;
+}

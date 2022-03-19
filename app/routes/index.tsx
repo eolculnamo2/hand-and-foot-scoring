@@ -59,14 +59,35 @@ const Index = () => {
             <h3>Sign In</h3>
             <div className="input-field ">
               <i className="material-icons prefix">account_circle</i>
-              <input name="email" placeholder="Username" id="icon_prefix" type="text" className="validate"></input>
+              <input
+                name="email"
+                placeholder="Username"
+                id="icon_prefix"
+                type="text"
+                className="validate"
+              ></input>
             </div>
             <div className="input-field ">
               <i className="material-icons prefix">security</i>
-              <input name="password" placeholder="Password" id="icon_prefix" type="text" className="validate"></input>
+              <input
+                name="password"
+                placeholder="Password"
+                id="icon_prefix"
+                type="text"
+                className="validate"
+              ></input>
             </div>
-            <button className="submit">Submit </button> or
-            <Link to="/create-account" prefetch="intent"><button className="submit">Create an Account</button></Link>
+            <a className="waves-effect waves-light white btn black-text">
+              Submit
+            </a>
+            or
+            <Link
+              to="/create-account"
+              prefetch="intent"
+              className="waves-effect waves-light white btn black-text"
+            >
+              Create an Account
+            </Link>
           </div>
         </div>
       </div>

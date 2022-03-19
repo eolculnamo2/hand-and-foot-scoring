@@ -3,10 +3,13 @@ import BasePageLayout from "~/layouts/BasePageLayout";
 import { buildLinks } from "~/utils/pages";
 
 export const links: LinksFunction = buildLinks();
-const AboutUs = () => (
+const Results = () => (
   <BasePageLayout>
-    <h1>Hello</h1>
+   <div>START HERE
+       
+      
+   </div>
   </BasePageLayout>
 );
 
-export default AboutUs;
+export default Results;

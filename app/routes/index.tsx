@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "remix";
 import { match } from "ts-pattern";
 import PasswordRecovery from "~/components/pages/index/PasswordRecovery";
 import BasePageLayout from "~/layouts/BasePageLayout";
@@ -58,21 +59,35 @@ const Index = () => {
             <h3>Sign In</h3>
             <div className="input-field ">
               <i className="material-icons prefix">account_circle</i>
-              <input name="email" placeholder="Username" id="icon_prefix" type="text" className="validate"></input>
+              <input
+                name="email"
+                placeholder="Username"
+                id="icon_prefix"
+                type="text"
+                className="validate"
+              ></input>
             </div>
             <div className="input-field ">
               <i className="material-icons prefix">security</i>
-              <input name="password" placeholder="Password" id="icon_prefix" type="text" className="validate"></input>
+              <input
+                name="password"
+                placeholder="Password"
+                id="icon_prefix"
+                type="text"
+                className="validate"
+              ></input>
             </div>
-            <a className="waves-effect waves-light white btn black-text" href="#">
-                  Submit
-                </a> or
-                <a className="waves-effect waves-light white btn black-text" href="#">
-                  Create Account
-                </a>
-
-            
-
+            <a className="waves-effect waves-light white btn black-text">
+              Submit
+            </a>
+            or
+            <Link
+              to="/create-account"
+              prefetch="intent"
+              className="waves-effect waves-light white btn black-text"
+            >
+              Create an Account
+            </Link>
           </div>
         </div>
       </div>

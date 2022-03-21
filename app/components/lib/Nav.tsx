@@ -10,7 +10,7 @@ const Nav = () => {
                 className="brand-logo"
                 id="home"
                 alt="hand and foot line drawing"
-              ></img>
+              />
             </a>
           </div>
 

@@ -2,6 +2,8 @@
 /// <reference types="@remix-run/cloudflare-pages/globals" />
 /// <reference types="@cloudflare/workers-types" />
 
-type Nullable<T> = null | T
+type Nullable<T> = null | T;
 
-type Result<Ok = undefined, Err = undefined> = { res: 'ok', payload?: Ok} | { res: 'err', payload?: Err}
+type Result<Ok = undefined, Err = undefined> =
+  | { readonly res: "ok"; readonly payload: Ok }
+  | { readonly res: "err"; readonly payload?: Err };
